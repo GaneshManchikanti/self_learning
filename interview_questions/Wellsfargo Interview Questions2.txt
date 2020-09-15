@@ -1,0 +1,86 @@
+1.what are the collection classes you have used in your project
+2.when do you use Set
+3.How it will avoid duplicates
+4.I have Employee class with age and name.I didn't override hashcode() method. I have created 10 employee objects with same age and name values.
+How many employee objects will be saved into hashSet.what is the size of the Set
+5.I have Overriden hashCode() method and my hashCode() is always returing 1. I have created 10 Employee objects with same Age and name values.
+How many employee objects will be saved into hashSet.what is the size of the Set.
+6.Can you write a code for good hashCode() and equals()
+how HashMap works
+7.I have 2 threads - thread1 and thread2.I want my thread1 to print all odd numbers from 1 to 100 and thread2 to print all even numbers.
+How can I do that.
+8.write a program for producer consumer problem
+9.explain the architecture of JVM
+10.types of memories in java
+11.where stringPool exist in JVM
+12.when an object is garbage collected
+13.how garbage collection works
+14.design pattern used in garbage collection
+15.I have created arrayList with size 10 and added 10 elements.I am trying to add 11th element.Can I do that.what will happen internally
+16.I have class A and class B extends class A.
+class A{
+}
+class B extends A{
+	public static void main(String args[]){
+		A a = new A();
+		B b = new B();
+		A a1 = new B();
+		B b2 = a;
+		A a2 = b;
+	}
+}
+is there any problem in code.If yes what is the exception you will get.How can you avoid exception.
+17.public class DateExample {
+
+	public static void main(String[] args) {
+
+		Date d = new Date();
+		modifyDate(d);
+		System.out.println(d);
+	}
+
+	static void modifyDate(Date d){
+		d = null;
+	}
+}
+What is the value of d printed.
+18.public class ListExample {
+
+	public static void main(String[] args) {
+
+		List ls = new ArrayList();
+		ls.add(11);
+		modifyList(ls);
+		System.out.println(ls.size());
+	}
+	static void modifyList(List ls){
+		ls.add(22);
+		ls.add(33);
+	}
+}
+what is the size of the list
+19.what is the difference between Exception and Error
+20. Name some of the errors
+21.when do we get OutOfMemoryException
+22.when do we get StackOverflowError
+23.hashCode() belongs to which class
+24.what is permspace in java
+25.Tell high level architecture of your project
+26.what is the advantage of IOC.
+27.what is the design pattern used for IOC
+28.what are IOC containers.
+29.what is the difference between beanFactory and applicationContext
+30.how do you do validations in spring
+31.what are the advantages of Hibernate
+32.how do you map tables in your code
+33.what is equi join
+34.what is composite key
+35.what is self join.
+36.what is inner join
+37.Given a scenario and asked to write a query
+38.I have huge amount of data in tables.How can I retrieve data effectively.
+39.what is trigger
+40.how HashMap works internally
+41.how hashcode value is generated.
+
+

@@ -1,0 +1,41 @@
+About Project and project related questions
+OOPS with real time programming questions
+Why would it be more secure to store sensitive data (such as a password, social security number, etc.) in a character array rather than in a String?
+What are the ways to create an object in java ?
+What is memory leak? how can we identify that?
+What is generic type parameters? How much control does Java give you over this?
+Two students arraylists with duplicates and not sorted, I would like to merge them and sort based on Name & Number.
+Implementing a Linked List in Java using Class
+If one needs a Set, how do you choose between HashSet vs. TreeSet?
+What is the difference between HashMap and ConcurrentHashMap? synchronizedHashMap & ConcurrentHashMap ?
+Can you explain me how get & put method works ?
+What is the contract between equals and hashCode of an object?
+What Is Garbage Collection and What Are Its Advantages?
+Are There Any Disadvantages of Garbage Collection?
+How are Java enums more powerful than integer constants? How can this capability be used?
+How threadsafe is enum in Java?
+What Are Stack and Heap? What Is Stored in Each of These Memory Structures, and How Are They Interrelated?
+Threads , any real time example on threadexecutors
+What is the ThreadLocal class? How and why would you use it?
+Session Management
+Security Configuration for authentication
+
+Spring MVC vs Spring Boot
+Spring tranaction management
+hibernate bulk fetching
+HQL
+How I can execute native sql query using JPA/Hibernate
+design patterns
+
+Design table
+Clustered and Nonclustered Indexes Described
+How Indexes are used by the Query Optimizer
+Joins and differences
+What is difference between Stored Procedure and Function?
+Can Procedures called inside functions? Yes or No Why?
+
+SonarQube
+MOCKITO & POWER MOCKITO
+Code Coverage tools
+jenkins and configuration
+Code reviews

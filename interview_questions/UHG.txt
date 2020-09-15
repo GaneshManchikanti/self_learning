@@ -1,0 +1,57 @@
+input(stringinput, charToReplace, target,n)
+Char [] charArray= stringInput.toCharArray();
+//find char[n]
+//100 -> 4 ?; replace 3 -> 2
+int ccount = 0;
+//get index of character 
+
+for (int i = 0; i < charArray.Length(); i ++) {
+	if (charArray[i] == charToReplace) {
+	 count ++;
+	if (count == n-1) {
+		//get index
+	 index = i;
+	}
+	}
+	
+}
+
+String.replace(charToReplace, index) 
+
+
+public class Ticket {
+ long ticketId;
+ String pnrStatus;
+ String source;
+ String destination;
+
+}
+
+// hyd -> del -> mom -> chn
+
+List<Ticket> tickets 
+
+int sourceCount;
+int destinationCount;
+Map<int,String> map = new HAshMap <int,String>();
+// ticket 1 -> ticket 2 ;ticket 2 -> t3; t3 -> t4
+for (int i =0; i< tickets.length; i++) {
+	for (int j=i+1; j <tickets.length; j++) {
+if (i.getSource != j.getSource &&  i.getDestination!= j.getDestination) {
+	   if (i.getDestination == j.getSource) {
+		destinationCount++;
+		map.put(destinationCount, i.destination);
+	}
+	if (j.Destination == i.getSource) {
+		sourceCount++;
+	map.put(sourceCount,i.getSource);
+	}
+}
+}
+}
+
+// coll of numbers ; odd or even
+numbers.stream().filter(number -> {
+(number%2 !=0)
+}).collectors.toList();
+

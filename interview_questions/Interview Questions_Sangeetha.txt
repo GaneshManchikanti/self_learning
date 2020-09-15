@@ -1,0 +1,113 @@
+Verizon----------
+
+1)  method Overriding : Exception handling rules?
+2)  difference between StringBuffer and Builder?
+3)  What is Executor framework?
+4)  Design Patterns used in the code?
+5)  finding intersection between two arrays?
+6)  question related to containsKey?
+7)  How the Set works?
+8) difference between ArrayList and Vector?
+9)  What id try with resource?
+10) Hibernate object states?
+11) What is meant by dirty checking?
+
+Oracle---------
+
+1) Overriding and oveloading rules?
+2) Executor Framework?
+3) OOP features?
+4) Encapsulation real time example?
+5) remvoing duplicates from sorted array with efficient way( asked about without using temp variable)?
+6) can we create marker interface and example?
+7) How to implement polymorphisam and its business implementation?
+8) have you worked on recurssion and threads?
+9) Write code for printing 1, 2, 3, 1, 2, 3 using three threads where first thread prints 1 , 2 nd 2 and 3rd 3?
+10) write the program to print 1 -one , 2 -two , 22 -twnty two up to 99 numbers for the given input?
+11) what is serialization and where it could be used?
+12) questions related to cloing and different types of cloning and busineess implementation?
+13) how deep cloing works , if we change one object does the original object change?
+14) factory pattern business implementation?
+15) singleton implemenation with out private constructor?
+16) implementation of equals() and hashcode() and business impleemntation?
+17) how the proxy pattern works and business implementation?
+18) Internal implementation of project?
+19) how to print sum of columns and rows in matrix?
+20) restartent use case: Has a room with different tables with different seating capacity, how to allote suitable table for people who entered into the room(for example 
+for 6 people we need to allot 6 member table or the suitable table which is less seating)
+
+
+JP morgan( more questions on ---------
+
+1) how to remove duplicates from given numbers?
+2) what is serilization and example?
+3) Volatile variable?
+4) why (thread methods) are in object class?
+5) Oveloading and Overriding rules?
+6) How to create user defined exceptions?
+7) Hibernate object states for new object and object which is already in the database?
+8) what is lazy and eager loading?
+9) after closing the session, how to access the lazy objects which are not available?
+1) Singleton implementation with enum?
+11) Executor framework?
+12) Trasaction Management and security?
+13) Anti patterns?
+14) how the join methods works( confused with some example)?
+15) difference between notify and notifyall with example?
+16) How to handle file input in restful web services?
+17) return codes in restful web services?
+18) when to use put and post and how to decide which method to use?
+19) is servlets thread safe and why we are using them in our old applications?
+20) any idea on how banking transactions works?
+21) how you have implemented the security for your application?
+22) questions realted to mocking frameworks?
+23) how to test the database objects?
+24) how to write and test unit tests for database testing ?
+25) how to mock static feilds/classes?
+26) fail safe and fail fast?
+27) arraylist and space allocation?
+28) have you faced any memory realted issues in your application?
+29) How the Garbage collection works and generations?
+21) can we move few objects betweeen generations?
+
+
+Loyalty methods-------
+
+1) how to configure hibernate template and write the code?
+2) default scope of bean?
+3) usage of concurrent framework?
+4) Spring security?
+5) how to handle form data in restful web services?
+6) can we write bean with same name and id in the spring xml file?
+7) how to initialize the beans default values in spring?
+8) how to handle Events in spring?
+9) bean life cycle management and spring container?
+10) design patterns?
+11) write the implementation for abstact session factory pattern?
+12) commnad to build maven project with /without unit tests?
+13) where the artifacts would be maintained in maven project?
+14) questions on second level cache in hibernate?
+15) performance issues in code?
+16) what approach do you follow when you get sudden issues in production if some thing goes wrong after 6 months?
+17) code coverage tools used?
+18) what is heap and how to set the heap size?
+
+
+Tech mahindra----
+
+1) difference between soap and rest?
+2) how to start writing rest ful web services( code in web.xml)?
+3) different methods and return codes in rest?
+4) mocking frameworks?
+5) Trascation management?
+6) basic quetsions on spring and hibernate?
+
+
+
+write code for equals() and hashcode() methods
+write number reverse program
+write palyndrom program
+
+
+
+

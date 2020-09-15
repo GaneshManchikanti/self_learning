@@ -1,0 +1,83 @@
+
+-- Recent project details 
+What is your contribution in project
+which technologies used 
+
+
+-- Core java
+-----------------
+Object class methods
+each method purpose
+wait, notify methods can we call in any context? 
+clone method default implementation
+can we call protected methods of object class from anywhere? 
+Can we throw exception from constructor
+What happen if we have try catch in Constructor 
+How Set identifies duplicates
+If I don't override the equals method will it eliminate duplicates?
+Is there any other way to eliminate duplicates (I said we can create comparator class and can pass this comparator class while creating Set object)
+Userdefined exceptions and what is the content you will write in user defined exception
+Enhanced for loop 
+What will happen if the list is null  in enhanced for loop (I said it will throw NullPointerException)
+If list is empty what will happen (I said it will skip the for loop)
+Final class, can we extend final class
+I have Employee class with name and id fields.Can I clone employee object
+what is static synchronized method and non static synchronized method
+can I call wait,notify & notifyAll from non synchronized context
+can I have inner class in a method
+can I have anonimus inner class in a method
+I have employee bean class ,I want to have unique employee object ,How I can add in set
+Ans: we can pass comparator to Treeset constructor
+Ex: Set<Emp> ts = new TreeSet<Emp>(new EmpComp());
+what are set add methods(different add methods)
+what are java 8 features
+access modifiers
+how treeset print elements in ascending order.internally what it uses.
+
+I have Emp object with id and name.didn't provide getter & setters for id and name.only have constructor which initializes fields.
+creates 10 emp objects and added to set.What is the size of set now
+Ans : 10.becuase each object will be treated as new object.
+
+--servlets
+--------------
+can we write a method with in scriptlets
+how do u write u r servlet class
+what are the methods in servlet
+do u override init method
+
+---jsps
+------------
+what are directives
+what is difference between include and forward
+can I forward my variables to forwarded resource using forward 
+can I forward even private variables also
+what is the difference between static include and dynamic include
+
+
+
+--Spring
+Do you know init and destroy methods in spring
+Apart from the configuration of init and destroy of the bean, how can we achieve the same functionaltiy 
+(I said we need to implement InitializeBean and DestroyBean interfaces)
+What are the methods in InitializeBean and DisposbleBean interfaces
+SpringMVc flow
+
+What annotations used
+difference between beanfactory and applicationContext
+can we run our spring application with beanfactory container
+
+I have controller class and I have autowired another class in controller .but I am getting bean not available(not able to autowire the class).what could be the problem
+Ans: If we didn't give correct package in configuration file like <context:component-to-scan="package">
+
+
+--Hibernate
+what are the steps to integrate hibernate in your spring application
+How to implement inheritance in hibernate
+Difference between createQuery and createSQLQuery of session
+Do you know Restrictions 
+
+
+--In my resume I have Quartz and DWR technologies there so 
+They asked what purpose you used both and how you implemented in your project
+
+

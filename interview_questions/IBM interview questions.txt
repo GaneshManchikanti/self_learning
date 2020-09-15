@@ -1,0 +1,14 @@
+1.what is the difference between static and volatile
+A:
+http://stackoverflow.com/questions/2423622/volatile-vs-static-in-java
+https://malalanayake.wordpress.com/2013/09/12/volatile-vs-static-in-java/
+2.If I have 3 threads,thread 1 I kept on sleep for one day.what will happen for other threads thread2 & thread3
+3.If thread1 is executing,can I start it again.
+3.How can I know the thread is dead.
+what is deadlock and how can I avoid deadlock situation
+4.I have a class A .In class A ,I have static variable  and non static variable.What will be in terms of memory allocation for those 2 variables
+I have 2 threads.How those 2 variables for those 2 threads
+5.I have 10 lacs of records in database,I want to store them hashmap.How can I do that.Is it the correct way to store 10lacs in hashmap.
+U have a cache and stored records from table,then table got some new records.Then u need to update cache pass to application.How do u do this
+6.how do u have class level validations in rest webservices
+7.I have xml file which is of GB size.I want to modify one element value by element name.How can I do that.

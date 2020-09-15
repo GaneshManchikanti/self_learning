@@ -1,0 +1,118 @@
+1.how to set null value in spring property---<null/>
+2. difference b/w comparator, comparable
+3. explain hashcode, equals, when we implement
+
+
+4.db related problem:
+there r employees in a company in various departments across various locations
+each employee has location, department has location
+find list of departments for which employees work from different location
+
+given :
+emp :
+id, name , dept_id, loc_id
+
+dept
+id name loc_id
+
+loc:
+id, name
+
+Ans  : select dept_id, name from dept d where 0=(select count(*) from emp e where e.dept_id=d.id and e.loc_id<>d.loc_id)
+
+5. code to find transpose of matrix--- efficient way
+
+6. what is coupling in OOPS concepts.
+
+7. what is Cohesion in OOPS
+
+8. String s1=new String("abc");
+   String s2=new String("abc");
+   Bean b1=new Bean("abcd");
+   Bean b2=new Bean("abcd");
+   Map<String,String> map=new hashMap<>();
+   map.put(s1,"k1");
+   map.put(s2,"k2");
+   map.put(b1,k3);
+   map.put(b2,k4);
+
+   What is the size of map?
+
+   Ans: compilation error
+
+9. String s1=new String("abc");
+   String s2=new String("abc");
+   String s="abc";
+   HashSet<String> a=new HashSet<>;
+   a.add(s1);
+   a.add(s2);
+   a.add(s3);
+   
+   what is size of set a?
+
+   Ans: 1
+
+10. Questions on design patterns
+    Singleton, factory, decorator, command, adapter
+    a) if there is legacy application that uses a old interface,
+       new implementaion follows a new interface. How will u integrate the two systems
+     Ans: Adapter
+    b) I want to capture a request (method call) and encapsulate in an object to execute at a later point in time
+     Ans: Command
+    c) Singleton - in multithreading -- how to implement -- using lazy intialization?
+
+       Ans: we should use double null check in getIntsance method
+                 getInstance(){
+			if(singleton==null){
+				synchronized(this){
+					if(singleton==null)
+					{
+						singleton=new Singleton();
+					}
+				}
+			}
+			return singleton;
+		}
+    
+11. What is serialization. why we use serializationId?
+
+12. there are 2 threads one prints 'A' continuously, other prints 'B' continuously
+    how can I ensure o/p is ABABABAB...  
+
+13. how many ways to synchronize? Ans : method, class, object
+
+14. class A{
+	public static void test(){
+		sysout("A");
+	}
+    }
+
+    class B extends A{
+   	public static void test(){
+		sysout("B");
+	}
+    }
+  
+    A a=new B();
+    a.test();
+    what is o/p? 
+    A
+
+15. hibernate - difference b/w merge, update, get, load
+    why we use inverse=true 
+
+16. wat is session.evict() ?
+
+17. reverse a linked list
+
+18. when 2 linked list are connected at a point, how to determine the joint position
+
+19  lifecycle of spring bean
+
+20. scopes in spring
+
+
+
+
+
+

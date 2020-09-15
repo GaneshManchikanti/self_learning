@@ -1,0 +1,47 @@
+Things to discuss 
+__________________
+clone method in object usage and how we can do that
+different ways to create an object 
+Kibana dashboard in our project and what we can do with that
+how we login(Oauth protocol, Authorization, authenctication) happen in systems management
+it reads all the registered users from LDAP and use it right?
+2 factpr authentication
+garbage collection in java, anywhere we are explicitly calling it ?
+volatile key word in singleton design pattern
+design patterns
+code coverage and code quality 
+kibana dashboard
+
+
+clone -> shallow; deep
+cloneable interface implement ; override clone method-> throws clonenotsupportedexception
+return super.clone
+ 
+emp -> new object creation
+-> shallow copy (obj.clone -> reference varaible will be pointed to old object itself, always changes reflect in this object)
+-> deep copy -> all together new object will be created, new reference will be created
+	
+created object -> replica of original object and do some operation on that, 
+eg: 
+	
+Authrorization/Authentication -> LDAP is handling -> authorize and then routed to application
+isauthroizedany -> ldap -> add user id
+userroleauthroization service -> LDAP user role access view/edit 
+
+stateful/stateless -> SMS ?
+2 factor authenication -> keyfob otp, mobile otp 
+Garbage collection -> scenario based
+	
+jacoco plugin and sonar  
+http://sonar-dev.ptc.tla.uprr.com:8000/overview?id=com.uprr.app.ptc.sm.asetcntrl.service%3Asm-control-service
+
+routing string will be configured based on source and destination will be saved in repository and shown in the 
+elastic search -> IDE for kibana
+
+https://medium.com/backend-habit/generate-codecoverage-report-with-jacoco-and-sonarqube-ed15c4045885
+
+bos team -> communicate -> act software -> 10275 send and 10276 recive 
+all details will be sent to another gateway which will be saved in a repository 
+-> where kibana acts as an interface to query the details of elastic search query
+
+

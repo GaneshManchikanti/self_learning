@@ -1,0 +1,36 @@
+array -> 1, 3 , 4 , 6, 5, 2
+
+[7,5,1,3,4,6,8,2,4]
+
+k - 3
+
+1 -> k
+
+max -> ?
+
+int temp = 0;
+for (int i =0 ; i< array.length; i++){
+for (int j = i; j < i+k; j++) { // array index out of bound exceptions
+if (array[j] > array[j +1]) {
+	temp = array [j];
+}
+}
+}
+
+o(n * (n-k))
+
+
+equals and hashcode contract
+what keys value are most suited for keys in hashmap
+immutable, how to create it 
+singleton deisgn pattern
+how can we avoid creating instance of java object(singleton, clone)
+sort employee object based on age/salary
+employees sort based on salary, age group and employee id
+builder design pattern, which java api is using it 
+aws exposure, how to create a messaging queue in aws 
+any exposure on bigdata/no sql
+difference between sql and no sql database
+shrading in mongodb
+
+
