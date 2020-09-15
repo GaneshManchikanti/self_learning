@@ -1,0 +1,35 @@
+  146  git init
+  147  git status
+  148  git add interview_questions/
+  149  git add spring-boot/
+  150  git status
+  151  git rm --cached
+  152  git rm --cached spring-boot/
+  153  git rm -r --cached spring-boot/
+  154  git rm  --cached -r spring-boot/
+  155  git rm  --cached -f spring-boot/
+  156  git rm  --cached -r -f spring-boot/
+  157  git status
+  158  git status
+  159  git commit -m "First comit for self_learning topics"
+  160  git status
+  161  git push
+  162  git remote add origin https://github.com/GaneshManchikanti/self_learning.git
+  163  git status
+  164  git branch -a
+  165  git push origin
+  166  git push --set-upstream origin master
+  167  git pull
+  168  git pull origin master
+  169  git pull origin master
+  170  git branch --set-upstream-to=origin/master master
+  171  git status
+  172  git pull
+  173  git pull origin master
+  174  git status
+  175  git pull
+  176  git pull origin master --allow-unrelated-histories
+  177  git status
+  178  git push
+  179  git status
+  180  history
